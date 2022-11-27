@@ -9,6 +9,7 @@
 
 int main()
 {
+    puts("Venta de boletos");
     int shmid;
     char *addr, *pint;
     /* Crear la región de memoria y obtener la dirección */
