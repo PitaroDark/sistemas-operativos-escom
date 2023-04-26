@@ -1,0 +1,23 @@
+Para la ejecucion del proyecto, se compila el servido de la siguiente forma
+
+    gcc servidor.c -o servidor -lncurses
+
+Conpilamos el programa del cliente
+
+    gcc cliente.c -o cliente -lncurses
+
+Al tener ambos programas compilados, nos aseguramos que haya libros
+en Libros.dat, para poder ver el catalogo.
+
+Despues ejecutamos el servidor de la siguiente manera
+
+    ./servidor
+
+Para salir del servidor, solo se preciosa ctrl + q
+Al ejecutar el servidor, este comenzara a crear archivos dentro de la carpeta en donde esta
+Una vez que inicie la ejecucion del servidor, procedemos a ejecutar al cliente
+
+    ./cliente
+
+Y ya solo comenzara
+Lo demas es intuitivo para su uso
